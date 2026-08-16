@@ -1,5 +1,5 @@
 
-IITG.ai Code Semantics Similarity Challenge — Rank 12 | 0.95783 F1
+IITG.ai Code Semantics Similarity Challenge — Rank 13 | 0.95783 F1
 
 # Code Semantic Equivalence Classification
 
@@ -8,7 +8,7 @@ IITG.ai Code Semantics Similarity Challenge — Rank 12 | 0.95783 F1
 An LLM-based approach to determine whether two code snippets are **semantically equivalent** using **SmolLM-1.7B, LoRA, and 4-bit quantization**.
 
 🏆 **Kaggle Score:** 0.95783  
-📊 **Rank:** 12  
+📊 **Rank:** 13  
 📈 **Best Validation F1:** 0.9683
 
 ---
@@ -133,6 +133,19 @@ The final threshold selected from validation was **0.32**.
 * Full validation-set threshold optimization.
 * Comparison with CodeBERT / GraphCodeBERT-style encoders.
 * Model ensembling for improved generalization.
+
+## 📂 Repository Structure
+
+```text
+  code-semantic-equivalence/
+│
+├── README.md
+├── code_semantic_equivalence.ipynb
+├── requirements.txt
+│
+├── results/
+│   └── leaderboard.png
+│
 
 ---
 
