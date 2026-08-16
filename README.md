@@ -144,8 +144,6 @@ The final threshold selected from validation was **0.32**.
 ├── requirements.txt
 │
 ├── results/
-│   └── leaderboard.png
-│
+   └── leaderboard.png
 
----
 
